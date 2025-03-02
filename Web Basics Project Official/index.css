@@ -1,0 +1,395 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #FFEE8C;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    width: 30vw;
+    height: auto;
+    float: left;
+    padding: 20px 0;
+    padding-left: 2%;
+    cursor: pointer;
+}
+
+.top-right {
+    width: 65vw;
+    float: right;
+}
+
+.nav-bar {
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    padding-right: 6%;
+}
+
+nav ul {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 45px;
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-bar a:hover {
+    color: #FEB643;
+    font-weight: 600;
+}
+
+.nav-bar a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #FEB643;
+    position: absolute;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Alegreya, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-shadow: 5px 2px 2px white;
+    color: black;
+}
+
+.container img {
+    max-width: 100vw;
+    height: 90%;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    opacity: 75%;
+}
+
+footer{
+    display: block;
+    background-color: #FFEE8C;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-about {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.footer-copyright p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.footer-email {
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-email a {
+    color: black;
+}
+
+.nav-footer ul{
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    transition-duration: 250s;
+}
+
+.nav-footer a:hover {
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: Alegreya, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.section-1 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.small-bullet {
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section-2 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.section-3 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.section-4 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+button {
+    background-color: #FFEE8C;
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border: none;
+    padding: 14px 60px;
+    border-radius: 5px;
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+
+.center-button {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #FEB643;
+    color: white;
+}
+
+#about-paragraph {
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+
+.about-offerings {
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.join-part {
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+#join-paragraph {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+ul a {
+    color: black;
+}
+
+/* Workshop */
+
+table, th, td {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: .5px solid black; 
+    border-collapse: collapse;
+}
+
+th {
+    padding: 15px;
+    font-family: Alegreya, Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add-info-italics {
+    font-style: italic;
+}
+
+.workshop-intro {
+    font-weight: 500;
+}
+
+.workshop-intro:hover {
+    cursor: pointer;
+    background-color: #FEB643;
+}
+
+.workshop-title {
+    background-color: #FFEE8C;
+}
+
+.title {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.heading {
+    font-family: Alegreya, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.paragraph {
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Library Card */
+
+.container-apply img {
+    max-width: 100vw;
+    height: 90%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.container-apply {
+    position: relative;
+    color: black;
+    overflow: hidden;
+}
+
+.center-left {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding-right: 20px;
+    float: left;
+    font-family: Alegreya, Georgia, 'Times New Roman', Times, serif;
+}
+
+ol {
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-family: Alegreya, Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.list {
+    padding-bottom: 20px;
+}
+
+/* Borrow Bees */
+
+.available-bees {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Afacad Flux', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bees {
+    border: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.space-below {
+    padding-bottom: 19px;
+}
+
+.visit-us {
+    text-align: center;
+}
+
+.address {
+    cursor: pointer;
+}
+
+/* Free Seeds  */
+
+.container-seeds img {
+    max-width: 100vw;
+    height: 90%;
+    margin-top: -40px;
+    margin-bottom: -50px;
+}
+
+.container-seeds {
+    position: relative;
+    color: black;
+    overflow: hidden;
+    text-align: right;
+}
+
+.center-right {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    padding-left: 20px;
+    float: right;
+    font-family: Alegreya, Georgia, 'Times New Roman', Times, serif;
+}
+
+/* position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding-right: 20px;
+    float: left; */
+
+    /* max-width: 100vw;
+    height: 90%;
+    margin-top: -50px;
+    margin-bottom: -50px; */
